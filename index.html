@@ -3,11 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href=".images/favicon.ico" type="image/x-icon" rel="icon" />
+    <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
     <script src="app.js" defer></script>
     <title>Document</title>
   </head>
   <body>
-    <h1>Hi</h1>
+    <header>
+      <nav id="nav-container">
+        <h1 id="logo">Alpine</h1>
+        <div id="link-container">
+          <a id="nav-link1" href="#feature1">Home</a>
+          <a id="nav-link2" href="#feature2">About</a>
+          <a id="nav-link3" href="#feature3">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="feature" id="feature1">
+        <div class="titles">
+          <h1>Book Your Getaway</h1>
+          <h3>Save More On packages</h3>
+          <a class="button" href="#">Read More</a>
+        </div>
+      </section>
+      <section class="feature" id="feature2">
+        <div class="titles">
+          <h1>No Hidden Fees</h1>
+          <h3>Transparency Guaranteed</h3>
+          <a class="button" href="#">Read More</a>
+        </div>
+      </section>
+      <section class="feature" id="feature3">
+        <div class="titles">
+          <h1>Why Wait?</h1>
+          <h3>Enquire About Your Trip Now</h3>
+          <a class="button" href="#">Read More</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Bookings by Alpine &copy;</p>
+    </footer>
   </body>
 </html>

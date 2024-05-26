@@ -1,3 +1,136 @@
 * {
-  background-color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.feature {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#feature3 {
+  background-image: url("./images/pexels-joyston-judah-331625-933054.jpg");
+}
+
+#feature2 {
+  background-image: url("./images/pexels-cmonphotography-1809644.jpg");
+}
+
+#feature1 {
+  background-image: url("./images/pexels-diego-giron-464799823-16554762.jpg");
+}
+
+.titles {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  position: absolute;
+  bottom: 10rem;
+  left: 5rem;
+  height: 30vh;
+}
+
+#nav-container {
+  font-family: arial;
+  font-weight: bold;
+  z-index: 1;
+  width: 100vw;
+  opacity: 95%;
+  position: fixed;
+  display: flex;
+  padding: 0.5rem;
+  justify-content: space-between;
+}
+
+.nav-transparent {
+  background-color: transparent;
+  transition: background-color 400ms linear;
+}
+
+.nav-colored {
+  background-color: #3e476a;
+  transition: background-color 400ms linear;
+}
+
+#link-container > a:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.nav-transparent > #link-container > a:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.nav-colored > #link-container > a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+#logo {
+  color: white;
+}
+
+#logo {
+  color: black;
+  font-size: 3em;
+  text-transform: uppercase;
+  padding-left: 2rem;
+}
+
+#link-container {
+  width: 40vw;
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 2rem;
+}
+
+#link-container > a {
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: black;
+  vertical-align: middle;
+  line-height: 3rem;
+}
+
+.titles > h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.titles > h3 {
+  font-size: 2rem;
+}
+
+.titles > a {
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 1rem;
+  width: fit-content;
+}
+
+a {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.button {
+  transition-duration: 0.5s;
+}
+
+.button:hover {
+  background-color: #b5828d;
+}
+
+footer {
+  background-color: #3e476a;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
 }
