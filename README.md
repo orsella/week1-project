@@ -11,7 +11,7 @@
 
 ### What went really well and what could have gone better?
 
-I found putting the overall structure of the website together fun and didn't get too stuck. Most of the issues I strugled with were with the navbar but this was because I hadn't applied flex correctly. Also took me a while to figure out how to only make the words on the navbar clikable, no the space around them too. This was fixed by removing the padding I had used to position the navbar elements. I instead increased the vw of the section and used space-between so padding was no longer used for spacing the elements.
+I found putting the overall structure of the website together fun and didn't get too stuck. Most of the issues I struggled with were with the navbar but this was because I hadn't applied flex correctly. Also took me a while to figure out how to only make the words on the navbar clikable, not the space around them too. This was fixed by removing the padding I had used to position the navbar elements. I instead increased the vw of the links section and used space-between so padding was no longer used for spacing the elements.
 
 Also don't like the JS I have used for the navbar as a lot of it is repeated for each ID but struggled to get it to work in another way and would need to use an array to go over the elements if I had used a class instead of ID.
 
