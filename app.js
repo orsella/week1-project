@@ -20,3 +20,16 @@ window.onscroll = function () {
     document.getElementById("nav-link3").style.color = "#000000";
   }
 };
+
+const button = document.querySelector(".button");
+let setText = document.querySelector(".titles");
+
+button.addEventListener("click", function () {
+  if (document.querySelector(".titles").children.length == 4) {
+    return;
+  }
+  const child = document.createElement("p");
+  child.classList.add("child");
+  child.textContent = "More Information Coming Soon";
+  setText.appendChild(child);
+});

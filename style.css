@@ -127,6 +127,11 @@ a {
   background-color: #b5828d;
 }
 
+.child {
+  color: #d38098;
+  font-size: 1.5rem;
+}
+
 footer {
   background-color: #3e476a;
   font-family: arial;
